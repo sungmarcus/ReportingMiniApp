@@ -1,0 +1,33 @@
+{
+  "name": "reporting-miniapp",
+  "version": "0.0.1",
+  "private": false,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "react": "16.8.3",
+    "react-native": "0.59.8"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/runtime": "^7.5.5",
+    "babel-jest": "^24.8.0",
+    "jest": "^24.8.0",
+    "metro-react-native-babel-preset": "^0.55.0",
+    "react-test-renderer": "16.8.3"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "ern": {
+    "moduleName": "ReportingMiniApp",
+    "moduleType": "ern-miniapp",
+    "packageManager": "yarn",
+    "version": "0.36.1"
+  },
+  "keywords": [
+    "ern-miniapp"
+  ]
+}
