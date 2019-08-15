@@ -1,0 +1,14 @@
+{
+    "mobile": {
+        "awscloudformation": {
+            "AuthRoleName": "smartcampus-mobile-20190801051509-authRole",
+            "UnauthRoleArn": "arn:aws:iam::951446604970:role/smartcampus-mobile-20190801051509-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::951446604970:role/smartcampus-mobile-20190801051509-authRole",
+            "Region": "eu-west-1",
+            "DeploymentBucketName": "smartcampus-mobile-20190801051509-deployment",
+            "UnauthRoleName": "smartcampus-mobile-20190801051509-unauthRole",
+            "StackName": "smartcampus-mobile-20190801051509",
+            "StackId": "arn:aws:cloudformation:eu-west-1:951446604970:stack/smartcampus-mobile-20190801051509/f39d3cd0-b412-11e9-bd55-0a611b368f3e"
+        }
+    }
+}

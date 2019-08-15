@@ -1,0 +1,45 @@
+type StudentCard @model {
+  id: ID!
+  username: String!
+  studentNumber: String!
+}
+
+type Accelerometer @model {
+  studentNumber: String!
+  x: Int!
+  y: Int!
+  z: Int!
+}
+
+type Gyroscope @model {
+  studentNumber: String!
+  x: Int!
+  y: Int!
+  z: Int!
+}
+
+type Magnetometer @model {
+  studentNumber: String!
+  x: Int!
+  y: Int!
+  z: Int!
+}
+
+type Magnetometer @model {
+  studentNumber: String!
+  pressure: Int!
+}
+
+type Location @model {
+  studentNumber: String!
+  longitude: Float!
+  latitude: Float!
+}
+
+type Report @model {
+  id: ID!
+  name: String
+  description: String
+  longitude: Float
+  latitude: Float
+}

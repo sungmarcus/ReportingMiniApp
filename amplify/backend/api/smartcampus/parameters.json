@@ -1,0 +1,4 @@
+{
+    "AppSyncApiName": "smartcampus",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST"
+}
